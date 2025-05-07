@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amore Bakery | Taste Joy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdfaf6;
+      color: #4b3621;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1605478759801-d2910c7fbdda?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: white;
+      padding: 5rem 1rem;
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      text-shadow: 2px 2px 5px #000;
+    }
+    .section-title {
+      font-family: 'Pacifico', cursive;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .product-img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .owner-section, .ambience-section {
+      background-color: #f6e9df;
+      padding: 2rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    .ambience-section img {
+      border-radius: 10px;
+      margin-top: 1rem;
+      width: 100%;
+    }
+    footer {
+      background-color: #8b5e3c;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Amore Bakery</h1>
+  <p>Where Every Bite Feels Like Home</p>
+</header>
+
+<div class="container my-5">
+  <section id="about" class="mb-5">
+    <h2 class="section-title">About Us</h2>
+    <p>Since 2019, Amore Bakery has stood as a beacon of warmth and indulgence near Sri Venkateswara College. Born out of a deep-rooted love for baking, Amore is the brainchild of local culinary enthusiast Rajat Sharma. Every cup and every cake is baked with patience, passion, and precision, capturing both the essence of tradition and a pinch of innovation.</p>
+    <p>What makes Amore different? It’s the care. Our chocolate is tempered to perfection. Our buns rise slowly overnight. We hand-whisk cream for each cake. Amore isn’t just a bakery — it’s a space of celebration, coffee breaks, friendly conversations, and nostalgia.</p>
+  </section>
+
+  <section class="owner-section">
+    <h2 class="section-title">From the Founder</h2>
+    <blockquote class="blockquote">
+      <p>"Baking has always been my refuge. With Amore, I wanted to build not just a shop but a story — of flavours, friendships, and fond memories. Each visitor who walks in is a guest in my extended kitchen."</p>
+      <footer class="blockquote-footer">Rajat Sharma, Founder</footer>
+    </blockquote>
+  </section>
+
+  <section class="ambience-section">
+    <h2 class="section-title">Inside Our Bakery</h2>
+    <p>Our interior reflects comfort and charm — cozy wooden interiors, chalkboard menus, and a delicious aroma that hugs you the moment you walk in. Our staff greets every customer with a smile, and each table offers a view of lovingly displayed confections.</p>
+    <img src="c:\Users\Airav Jain\OneDrive\Pictures\Screenshots\Screenshot 2025-05-07 164130.png" alt="Bakery interior" />
+  </section>
+
+  <section id="menu" class="mb-5">
+    <h2 class="section-title">Menu Highlights</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="c:\Users\Airav Jain\OneDrive\Pictures\Screenshots\Screenshot 2025-05-07 005300.png" class="product-img" alt="Hot Chocolate">
+        <h5 class="mt-2">Hot Chocolate</h5>
+        <p>Signature house-made hot chocolate, rich and aromatic with a velvety finish.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="c:\Users\Airav Jain\OneDrive\Pictures\Screenshots\Screenshot 2025-05-07 005119.png" class="product-img" alt="Cake">
+        <h5 class="mt-2">Cookies & Cream Cake</h5>
+        <p>Crumbly cookie base, luscious frosting, and chocolate drizzle — a celebration classic.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="c:\Users\Airav Jain\OneDrive\Pictures\Screenshots\Screenshot 2025-05-07 163326.png" class="product-img" alt="Chocolate Shake">
+        <h5 class="mt-2">Chocolate Shake</h5>
+        <p>A thick, chilled blend of milk and chocolate, topped with whipped cream and sprinkles.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="mb-5">
+    <h2 class="section-title">Let's Get In Touch</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" required />
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Send Message</button>
+    </form>
+  </section>
+
+  <section id="location">
+    <h2 class="section-title">Where to Find Us</h2>
+    <p>Just a stone’s throw from Sri Venkateswara College, find us surrounded by student life, local vendors, and the buzz of Delhi’s south campus streets. Open daily from 9 AM – 9 PM.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14014.962581520134!2d77.19263885!3d28.58513305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3be391b25f7%3A0xa1bb997a8948dbfe!2sSri%20Venkateswara%20College!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2025 Amore Bakery | Designed for moments that matter.</p>
+</footer>
+
+</body>
+</html>
